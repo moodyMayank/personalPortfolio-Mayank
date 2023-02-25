@@ -25,14 +25,14 @@ const Banner = () => {
           ></path>
         </svg>
       </div>
-      <div className="flex flex-col-reverse items-center justify-center overflow-hidden h-[750px] lg:flex-row lg:h-[650px] bg-white mb-5">
+      <div className="flex flex-col-reverse items-center justify-center h-[750px] lg:flex-row lg:h-[650px] ">
         {/* Left Container */}
         <div className="flex-1 flex flex-col items-center justify-start space-y-5">
-          <h2 className="text-7xl font-bold rounded-2xl drop-shadow-lg">
+          <h2 className="text-5xl lg:text-7xl font-bold rounded-2xl drop-shadow-lg">
             Mayank Kumar
           </h2>
-          <p className="text-lg">
-            Hi, I am{" "}
+          <p className="text-lg text-gray-600 z-10 sm:z-0 text-center mx-auto mb-2">
+            Hi, I am a
             <span className="bg-[#00337C] text-white px-1 mx-1 rounded-sm">
               Frontend Developer
             </span>
@@ -40,9 +40,9 @@ const Banner = () => {
           </p>
         </div>
         {/* Right Container */}
-        <div className="flex-1 drop-shadow-2xl">
+        <div className="flex-1  drop-shadow-2xl">
           <img
-            className="p-5 lg:h-[500px] rounded-full"
+            className="p-5 lg:h-[600px] rounded-full"
             src={personalphoto}
             alt="Banner Image"
           />
